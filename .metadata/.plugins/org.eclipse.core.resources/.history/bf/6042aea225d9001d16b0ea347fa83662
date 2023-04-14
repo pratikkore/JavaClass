@@ -1,0 +1,33 @@
+package Day12ArrayObject;
+
+import java.util.Scanner;
+
+class Student {
+	int id;
+	String name;
+	int marks;
+
+	public Student(int sId, String sName, int sMarks) {
+		this.id = sId;
+		this.name = sName;
+		this.marks = sMarks;
+	}
+
+	public String toString() {
+		return id + " " + name + " " + marks;
+	}
+}
+
+public class StudentMarksObj {
+
+	public static void main(String[] args) {
+		
+		Student stud[]=new Student[2];
+		
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter Student id ..");
+		int sI
+
+	}
+
+}

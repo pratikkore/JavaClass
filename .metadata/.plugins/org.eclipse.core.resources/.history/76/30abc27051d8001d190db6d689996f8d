@@ -1,0 +1,9 @@
+package Day11_4_23;
+
+public interface Electric {
+	public void Tv();
+}
+
+public interface Wireless{
+	public void mobile
+}

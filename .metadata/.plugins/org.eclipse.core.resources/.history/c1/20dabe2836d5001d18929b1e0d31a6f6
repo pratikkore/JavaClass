@@ -1,0 +1,26 @@
+package Day10Assignment;
+
+interface Furniture {
+
+	void chair();
+}
+
+class chair implements Furniture {
+	public void chair() {
+		System.out.println("this is office chair   .....");
+	}
+}
+
+class Table implements Furniture {
+	public void chair() {
+		System.out.println("this is boss chair .... ");
+	}
+
+	public static void main(String[] args) {
+		Furniture f = new chair();
+		f.chair();
+
+		Furniture f1 = new Table();
+		f1.Table();
+	}
+}

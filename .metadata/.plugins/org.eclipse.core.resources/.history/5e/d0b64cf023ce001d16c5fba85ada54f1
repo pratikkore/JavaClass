@@ -1,0 +1,25 @@
+package OopsAssignment;
+
+public class Assignment11 {
+
+//	11. From scanner In loop (for 2 iterations) read Student
+//	data create new object each time assign values and print
+//	student values in console.
+	int studId;
+	String studName;
+
+	public void student1(int sId, String sName) {
+		studId = sId;
+		studName = sName;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Assignment11 s1 = new Assignment11();
+		s1.student1(1, "Xyz");
+
+		Assignment11 s2 = new Assignment11();
+		s2.student1(2, "abc");
+	}
+
+}

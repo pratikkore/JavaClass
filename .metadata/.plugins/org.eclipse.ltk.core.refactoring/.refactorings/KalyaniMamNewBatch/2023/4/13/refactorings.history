@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Day1Assignment&apos; to &apos;Day1Assignmeent&apos;&#x0D;&#x0A;- Original project: &apos;KalyaniMamNewBatch&apos;&#x0D;&#x0A;- Original element: &apos;KalyaniMamNewBatch/src/Day1Assignment&apos;&#x0D;&#x0A;- Renamed element: &apos;KalyaniMamNewBatch/src/Day1Assignmeent&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings&#x0D;&#x0A;- Rename subpackages of the package" description="Rename package &apos;Day1Assignment&apos;" flags="589830" hierarchical="true" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Day1Assignment" name="Day1Assignmeent" qualified="false" references="true" stamp="1680368702601" textual="false" version="1.0"/>
+</session>

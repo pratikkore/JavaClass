@@ -1,0 +1,10 @@
+package Day11;
+
+public class FindOdd {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

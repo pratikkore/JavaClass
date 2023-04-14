@@ -1,0 +1,20 @@
+package Day11_4_23;
+
+public interface Baking {
+	void bake();
+
+}
+
+class Strawbary implements Baking {
+	@Override
+	public void bake() {
+		System.out.println("this is Strawbary Cake...");
+	}
+}
+
+class Butterscotch implements Baking {
+	@Override
+	public void bake() {
+		System.out.println("This is ButterScotch cake ...");
+	}
+}

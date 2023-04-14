@@ -1,0 +1,33 @@
+package Day10Assignment;
+
+interface add {
+	int num = 30;
+
+	public void addition();
+}
+
+abstract class calculation implements add {
+	int num2 = 20;
+
+	public abstract void addition();
+}
+
+class sum extends calculation {
+	public void addition() {
+		int total = num + num2;
+		System.out.println(total);
+
+	}
+}
+
+public class InterfaceDemo {
+
+	public static void main(String[] args) {
+		
+		sum s=new sum();
+		
+		s.addition();
+
+	}
+
+}

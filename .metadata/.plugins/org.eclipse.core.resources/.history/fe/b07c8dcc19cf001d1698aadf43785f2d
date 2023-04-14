@@ -1,0 +1,38 @@
+package Day4Assignment;
+
+import java.util.Scanner;
+
+public class Student1 {
+
+	int id, rNum;
+	String name;
+
+	public Student1(int i, int r, String n) {
+
+		id = i;
+		rNum = r;
+		name = n;
+	}
+
+	public void display() {
+		System.out.print("\n Student id:" + id + "\n Student Roll Number : " + rNum + "\n student name : " + name);
+	}
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter student id ");
+		int i = sc.nextInt();
+
+		System.out.println("Enter student Roll Number ");
+		int r = sc.nextInt();
+
+		System.out.println("Enter student name ");
+		String n = sc.next();
+
+		Student1 obj = new Student1(i, r, n);
+
+		obj.display();
+	}
+
+}

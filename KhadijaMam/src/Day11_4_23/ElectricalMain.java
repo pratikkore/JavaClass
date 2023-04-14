@@ -1,0 +1,12 @@
+package Day11_4_23;
+
+public class ElectricalMain {
+
+	public static void main(String[] args) {
+
+		NonWireless obj = new NonWireless();
+		obj.Tv();
+		obj.mobile();
+	}
+
+}

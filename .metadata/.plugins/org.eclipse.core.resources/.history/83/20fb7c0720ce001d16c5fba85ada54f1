@@ -1,0 +1,27 @@
+package OopsAssignment;
+
+public class Assignment9 {
+
+//	9. If you do this Student s1 = new Student(); Student s2 = s1;
+//	Now print sop(s1) sop(s2) see both reference variables are pointing to same location.
+//	But if you use new keyword for s1 and s2 see both values would be different
+
+	public void student1() {
+		System.out.println("this is student one");
+	}
+
+	public void student2() {
+		System.out.println("this is student two");
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Assignment9 s1 = new Assignment9();
+		System.out.println(s1);
+
+		Assignment9 s2 = s1;
+		System.out.println(s2);
+
+	}
+
+}

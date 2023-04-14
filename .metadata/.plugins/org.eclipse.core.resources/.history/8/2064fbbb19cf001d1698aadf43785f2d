@@ -1,0 +1,26 @@
+package Day4Assignment;
+
+import java.util.Scanner;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int numb;
+
+		Scanner sc = new Scanner(System.in);
+
+		System.out.println("enter user number");
+		numb = sc.nextInt();
+
+		while (numb != 0) {
+			int r = numb % 10;
+			if (r % 2 == 0) {
+				System.out.print(r);
+			}
+			numb = numb / 10;
+		}
+
+	}
+
+}

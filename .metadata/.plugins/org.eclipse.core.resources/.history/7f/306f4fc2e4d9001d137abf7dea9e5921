@@ -1,0 +1,10 @@
+package Day13Array2D;
+
+public class Create2DArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

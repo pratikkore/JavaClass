@@ -1,0 +1,24 @@
+package Test2;
+
+public class Item {
+
+	int id, price;
+	String name;
+
+	Item(int i, int p, String n) {
+		id = i;
+		price = p;
+		name = n;
+	}
+
+	public void display() {
+		System.out.print("\n Item id :" + id + " \n Item price :" + price + " \n Enter name :" + name);
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Item obj = new Item(1, 200, "ball");
+		obj.display();
+	}
+
+}

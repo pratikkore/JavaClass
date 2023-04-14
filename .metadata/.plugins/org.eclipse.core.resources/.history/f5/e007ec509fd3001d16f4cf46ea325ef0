@@ -1,0 +1,34 @@
+package Day8Assignment;
+
+class Bird {
+	void test() {
+		System.out.println("Every bird can Fly high");
+	}
+}
+
+class pecock extends Bird {
+	@Override
+	public void test() {
+		System.out.println("Pecock is not Flying High ..");
+	}
+}
+
+class egale extends Bird {
+	@Override
+	public void test() {
+		System.out.println("Egale flying veru high...");
+	}
+}
+
+public class Overriding {
+
+	public static void main(String[] args) {
+
+		pecock a = new pecock();
+		a.test();
+
+		Bird b = new egale();
+		b.test();
+	}
+
+}

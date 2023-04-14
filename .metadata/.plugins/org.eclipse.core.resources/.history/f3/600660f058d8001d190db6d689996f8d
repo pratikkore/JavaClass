@@ -1,0 +1,26 @@
+package Day11_4_23;
+
+public class Array {
+
+	public void display(char arr[]) {
+
+		int temp = 2;
+		for (char i = 0; i < arr.length; i++) {
+			arr[i] = (char) (arr[i] + temp);
+			if (arr[i] >= 'y') {
+				arr[i] = (char) (arr[i] - 25);
+			}
+			System.out.println(arr[i]);
+		}
+	}
+
+	public static void main(String[] args) {
+
+		char arr[] = { 'a', 'e', 's', 'z' };
+
+		Array obj = new Array();
+		obj.display(arr);
+
+	}
+
+}

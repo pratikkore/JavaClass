@@ -1,0 +1,29 @@
+package Day10_4;
+
+class Parent {
+	public char[] show;
+
+	Object show() {
+		System.out.println("Parent method");
+		return this;
+	}
+}
+
+class child extends Parent {
+	@Override
+	String show() {
+		super.show();
+		System.out.println("Child method");
+		return "String java";
+	}
+}
+
+public class CovarientExample {
+
+	public static void main(String[] args) {
+
+		Parent obj = new child();
+		System.out.println(obj.show);
+	}
+
+}
