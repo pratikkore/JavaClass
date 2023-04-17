@@ -1,9 +1,0 @@
-package Day10Assignment;
-
-public class FurnitureInterface {
-
-	public static void main(String[] args) {
-
-	}
-
-}

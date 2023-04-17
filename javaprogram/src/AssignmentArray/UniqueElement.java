@@ -24,7 +24,7 @@ public class UniqueElement {
 
 	public static void main(String[] args) {
 
-		int arr[] = { 7, 6, 5, 4, 3, 2, 1, 1, 2, 3, 4, 2, 1, 2, 3 };
+		int arr[] = { 4, 3, 2, 4, 9, 2 };
 
 		UniqueElement obj = new UniqueElement();
 		obj.display(arr);

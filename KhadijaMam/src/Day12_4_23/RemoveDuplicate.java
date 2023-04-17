@@ -16,7 +16,7 @@ public class RemoveDuplicate {
 			for (int j = 0; j < temp.length; j++) {
 				if (arr[i] != temp[j]) {
 					temp[index] = arr[i];
-					System.out.println(temp[index]);
+//					System.out.println(temp[index]);
 					index++;
 					break;
 				}
