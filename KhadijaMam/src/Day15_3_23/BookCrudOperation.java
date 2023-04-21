@@ -82,6 +82,7 @@ public class BookCrudOperation {
 			if (book[i] != null) {
 				if (book[i].getId() == id) {
 					b = book[i];
+					break;
 				}
 			}
 		}
@@ -179,7 +180,11 @@ public class BookCrudOperation {
 			}
 			case 4: {
 				System.out.println("Enter Id to search a Book");
-				bkCrudOperation.findBook(scanner.nextInt());
+
+				Book find = bkCrudOperation.findBook(scanner.nextInt());
+				System.out.println(find.getId());
+				System.out.println(find.getName());
+				System.out.println(find.getPrice());
 				break;
 			}
 			case 5: {
