@@ -1,13 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Test4.CarClass"/>
-    <fullyQualifiedTypeName name="Test4.Engine"/>
-    <fullyQualifiedTypeName name="Test4.SubEngine"/>
-    <fullyQualifiedTypeName name="Test4.Gear"/>
-    <fullyQualifiedTypeName name="Day15_3_23.BookCrudOperation"/>
-    <fullyQualifiedTypeName name="java.security.PKCS12Attribute"/>
-    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.HTMLReader.IsindexAction"/>
-    <fullyQualifiedTypeName name="Day15String.PatternString"/>
     <fullyQualifiedTypeName name="Day15String.SortString"/>
     <fullyQualifiedTypeName name="java.lang.InheritableThreadLocal"/>
     <fullyQualifiedTypeName name="Day15String.ReverserStingExcpetfirstNLast"/>
@@ -42,7 +34,6 @@
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="Day19_4_23.PasswordValidation"/>
-    <fullyQualifiedTypeName name="java.security.PublicKey"/>
     <fullyQualifiedTypeName name="Day18ThrowKeyword.BinaryOrNot"/>
     <fullyQualifiedTypeName name="Day18ThrowKeyword.BinaryCheck"/>
     <fullyQualifiedTypeName name="javax.print.attribute.standard.Chromaticity"/>
@@ -52,12 +43,21 @@
     <fullyQualifiedTypeName name="java.lang.IndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="April8.demo"/>
     <fullyQualifiedTypeName name="April8.A"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="April8.ArrayDemo"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="Test5.store"/>
     <fullyQualifiedTypeName name="Test5.ItemStockOverFlowException"/>
     <fullyQualifiedTypeName name="Test5.ItemStockUnderFlowException"/>
+    <fullyQualifiedTypeName name="Day19InnerClass.outer"/>
+    <fullyQualifiedTypeName name="Day19InnerClass.Outer"/>
+    <fullyQualifiedTypeName name="Day19InnerClass.Outer.InnerClass"/>
+    <fullyQualifiedTypeName name="Day19InnerClass.Template"/>
+    <fullyQualifiedTypeName name="java.security.PublicKey"/>
+    <fullyQualifiedTypeName name="Day19InnerClass.MyStaticOuter.StaticInnerClass"/>
+    <fullyQualifiedTypeName name="java.lang.Void"/>
+    <fullyQualifiedTypeName name="Day19InnerClass.MyStaticOuter"/>
+    <fullyQualifiedTypeName name="Day19InnerClass.MyStaticOuter.MyInnerStatic"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
