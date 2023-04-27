@@ -1,0 +1,34 @@
+package Day19_4_23;
+
+public class FrequncyFind {
+
+	public void display(String str) {
+		int count = 0;
+
+		for (int i = 0; i < str.length(); i++) {
+//			count = 0;
+			for (int j = 0; j < str.length(); j++) {
+				char ch = str.charAt(i);
+				char chJ = str.charAt(j);
+
+				if (ch == chJ) {
+					count++;
+					break;
+				}
+
+			}
+			System.out.println(str.charAt(i) + " frequncy is " + count);
+
+		}
+		System.out.println(count);
+	}
+
+	public static void main(String[] args) {
+		String str = "accbashdgysewveasvdbsvdhg";
+
+		FrequncyFind obj = new FrequncyFind();
+
+		obj.display(str);
+	}
+
+}

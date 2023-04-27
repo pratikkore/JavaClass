@@ -1,0 +1,29 @@
+package Day19_4_23;
+
+import java.util.Arrays;
+
+public class ReverseString {
+
+	public void display(String str) {
+
+		String[] arr = str.split(" ");
+		for (int i = 0; i < arr.length; i++) {
+			for (int j = arr[i].length() - 1; j <=0; j--) {
+
+				System.out.print(arr[i].charAt(j));
+//				System.out.println(Arrays.toString(arr));
+			}
+System.out.print(" ");
+		}
+
+	}
+
+	public static void main(String[] args) {
+
+		String str = "hello java";
+
+		ReverseString obj = new ReverseString();
+		obj.display(str);
+	}
+
+}

@@ -1,0 +1,26 @@
+package Day26_4_23;
+
+import java.util.Arrays;
+
+public class IntegerFromString {
+
+	public static void main(String[] args) {
+
+		String str = "Virat doing 96 score";
+
+		String arr[] = str.split(" ");
+		int sum = 0;
+
+		System.out.println(Arrays.toString(arr));
+
+		for (int i = 0; i < arr.length; i++) {
+
+			int abc = Integer.parseInt(arr[i]);
+
+			sum = sum + abc;
+
+		}
+
+	}
+
+}

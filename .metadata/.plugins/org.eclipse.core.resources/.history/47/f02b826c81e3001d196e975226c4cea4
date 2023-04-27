@@ -1,0 +1,25 @@
+package Day20Collection;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Iterator;
+
+public class ArrayListDemo {
+
+	public static void main(String[] args) {
+
+		ArrayList<Float> fl = new ArrayList<Float>();
+		fl.add(23.43f);
+		fl.add(32.56f);
+		fl.add(12.43f);
+
+		ArrayList<Float> reverseArrayList = (ArrayList<Float>) Collections.reverseOrder();
+		for (Iterator iterator = reverseArrayList.iterator(); iterator.hasNext();) {
+			Float float1 = (Float) iterator.next();
+			System.out.println(float1);
+			
+		}
+//			System.out.println();
+	}
+
+}

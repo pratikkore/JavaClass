@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Testing/RepoForNewIncubators/JUnitTest/src/com/calculator/com/Calculator.java&apos; to &apos;CalculatorAdd.java&apos;" description="Rename resource &apos;Calculator.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="RepoForNewIncubators/JUnitTest/src/com/calculator/com/Calculator.java" name="CalculatorAdd.java" stamp="1681885815353" updateReferences="true"/>&#x0A;&#x0A;</session>

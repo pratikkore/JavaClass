@@ -1,0 +1,16 @@
+package April8;
+
+public class Demo {
+
+	int id;
+	String name;
+
+	static String subName = "Maths";
+
+	public static void main(String[] args) {
+		Demo std = new Demo();
+		Demo.subName = "science";
+
+	}
+
+}

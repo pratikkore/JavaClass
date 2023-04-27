@@ -1,0 +1,14 @@
+package Day19_4_23;
+
+public class FindDuplicates {
+
+	public static void main(String[] args) {
+
+		String str = "accbashdgysewveasvdbsvdhg";
+
+		FindDuplicates obj = new FindDuplicates();
+
+		obj.display(str);
+	}
+
+}

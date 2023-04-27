@@ -1,0 +1,10 @@
+package Day25_4_23;
+
+public class LengthException {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

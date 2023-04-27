@@ -1,0 +1,32 @@
+package Day19_4_23;
+
+import java.util.Arrays;
+
+public class FirstLetterUpperCase {
+
+	public void display(String str) {
+
+		String[] arr = str.toLowerCase().split(" ");
+		char s = 0;
+
+		for (int i = 0; i < arr.length; i++) {
+			s = arr[i].charAt(0);
+			char t1 = (char) (s - 32);
+			arr[i].replace(s, t1);
+			System.out.println(t1);
+
+		}
+		System.out.println(Arrays.toString(arr));
+	}
+
+	public static void main(String[] args) {
+
+		String str = "india is my coutry";
+
+		FirstLetterUpperCase obj = new FirstLetterUpperCase();
+
+		obj.display(str);
+
+	}
+
+}
