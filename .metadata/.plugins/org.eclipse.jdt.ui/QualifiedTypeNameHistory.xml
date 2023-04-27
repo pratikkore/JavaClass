@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="April18.Circle"/>
-    <fullyQualifiedTypeName name="April18.Rectangle"/>
     <fullyQualifiedTypeName name="April18.Printable"/>
     <fullyQualifiedTypeName name="javax.management.loading.PrivateClassLoader"/>
     <fullyQualifiedTypeName name="April18.Drawable"/>
@@ -48,16 +46,18 @@
     <fullyQualifiedTypeName name="java.lang.Void"/>
     <fullyQualifiedTypeName name="Day19InnerClass.MyStaticOuter"/>
     <fullyQualifiedTypeName name="Day19InnerClass.MyStaticOuter.MyInnerStatic"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="Day25_4_23.LengthException"/>
     <fullyQualifiedTypeName name="java.lang.Runtime"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="Day26_4_23.IntegerFromString"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="java.lang.Character"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="Day22.PrimeNumber"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="Day22.DivisableByThree"/>
     <fullyQualifiedTypeName name="java.util.Iterator"/>
 </qualifiedTypeNameHistroy>

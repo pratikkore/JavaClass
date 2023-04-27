@@ -1,0 +1,34 @@
+package Day27_4_23;
+
+import java.util.ArrayList;
+
+public class UniqueElement {
+	public void display(ArrayList<String> str) {
+
+		String tempString = "";
+
+		for (int i = 0; i < str.size(); i++) {
+
+			if (tempString.equals(str.get(i))) {
+				tempString = str.get(i);
+			}
+		}
+		System.out.println(tempString);
+
+	}
+
+	public static void main(String[] args) {
+
+		ArrayList<String> str = new ArrayList<String>();
+		str.add("sun");
+		str.add("mon");
+		str.add("sun");
+		str.add("tue");
+		str.add("wed");
+		str.add("mon");
+
+		UniqueElement obj = new UniqueElement();
+		obj.display(str);
+	}
+
+}

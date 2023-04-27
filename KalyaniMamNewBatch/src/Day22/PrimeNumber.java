@@ -34,15 +34,12 @@ public class PrimeNumber {
 			int user = sc.nextInt();
 			num.add(user);
 		}
-
 //		num.add(3);
 //		num.add(4);
 //		num.add(5);
 //		num.add(7);
 //		num.add(8);
-
 		PrimeNumber p = new PrimeNumber();
 		p.prime(num);
-
 	}
 }
