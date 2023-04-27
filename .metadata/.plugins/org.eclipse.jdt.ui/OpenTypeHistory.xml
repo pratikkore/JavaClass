@@ -1,6 +1,2 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy>
-    <typeInfo handle="=BasicJava/C:\/Program Files\/Java\/jdk-20\/lib\/jrt-fs.jar`java.base&lt;java.util(RandomAccess.class[RandomAccess" modifiers="1537" timestamp="1679753557869"/>
-    <typeInfo handle="=BasicJava/C:\/Program Files\/Java\/jdk-20\/lib\/jrt-fs.jar`java.base&lt;java.lang(Exception.class[Exception" modifiers="33" timestamp="1679753557869"/>
-    <typeInfo handle="=BasicJava/C:\/Program Files\/Java\/jdk-20\/lib\/jrt-fs.jar`java.base&lt;java.lang(Throwable.class[Throwable" modifiers="33" timestamp="1679753557869"/>
-</typeInfoHistroy>
+<typeInfoHistroy/>

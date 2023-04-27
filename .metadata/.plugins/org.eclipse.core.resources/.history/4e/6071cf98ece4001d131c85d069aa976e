@@ -18,8 +18,9 @@ public class TwoArrayList {
 					count++;
 //					break;
 				}
+				
 			}
-			if (count < 2) {
+			if (count<2) {
 				str3.add(str.get(i));
 			}
 		}

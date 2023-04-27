@@ -10,16 +10,16 @@ public class TwoArrayList {
 		ArrayList<String> str3 = new ArrayList<String>();
 
 		for (int i = 0; i < str.size(); i++) {
-			int count = 0;
+			boolean isPresent = false;
 
 			for (int j = 0; j < str.size(); j++) {
 
-				if (str.get(i) == str.get(j)) {
-					count++;
-//					break;
+				if (str.get(i) == (str.get(j)) && i >= j) {
+					isPresent = true;
+					break;
 				}
 			}
-			if (count < 2) {
+			if (isPresent) {
 				str3.add(str.get(i));
 			}
 		}
