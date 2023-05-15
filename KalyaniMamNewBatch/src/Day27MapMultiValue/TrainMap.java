@@ -17,7 +17,7 @@ class Train {
 
 	@Override
 	public String toString() {
-		return "id=" + id + ", name=" + name + ", noSeat=" + noSeat;
+		return "id=" + id + ", Train name=" + name + ", noSeat=" + noSeat;
 	}
 
 	@Override
