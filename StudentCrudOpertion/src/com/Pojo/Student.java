@@ -1,20 +1,22 @@
 package com.Pojo;
 
+import java.util.ArrayList;
+
 public class Student {
 	public int id;
 	public String name;
-	public String courseName;
+	public ArrayList<Course> course = new ArrayList<>();
 
-	public Student(int id, String name, String courseName) {
+	public Student(int id, String name, ArrayList<Course> course) {
 		super();
 		this.id = id;
 		this.name = name;
-		this.courseName = courseName;
+		this.course = course;
 	}
 
 	@Override
 	public String toString() {
-		return " [name=" + name + ", courseName=" + courseName + "]";
+		return " [name=" + name + ", course=" + course + "]";
 	}
 
 }
