@@ -7,7 +7,6 @@
 <item elementID="=KalyaniMamNewBatch" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=BasicJava" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=javaprogram" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
-<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eclips workspace" type="4"/>
 <item elementID="=JUnit" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=WeeklyTest" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>
 <item elementID="=XobinTest" factoryID="org.eclipse.jdt.ui.PersistableJavaElementFactory"/>

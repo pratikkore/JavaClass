@@ -68,15 +68,15 @@ public class StudentImplementetion implements StudentCrud {
 	@Override
 	public void update() throws NotFoundException {
 
-		System.out.println("Enter Student id you want to update");
+		System.out.println("Enter Student id you want to update : ");
 		int s_id = sc.nextInt();
 		if (al.containsKey(s_id)) {
-			System.out.println("enter name to update");
+			System.out.println("Enter name to update : ");
 			String name = sc.next();
 			ArrayList<Course> course = new ArrayList<>();
 			char enterMoreCourse;
 			do {
-				System.out.println("Enter course Id");
+				System.out.println("Enter course Id :");
 				int courseId = sc.nextInt();
 				boolean f = false;
 				for (Course c : course) {
@@ -86,7 +86,7 @@ public class StudentImplementetion implements StudentCrud {
 					}
 				}
 				if (!f) {
-					System.out.println("Enter course Name ");
+					System.out.println("Enter course Name : ");
 					String courseName = sc.next();
 					course.add(new Course(courseId, courseName));
 				} else {
@@ -123,7 +123,7 @@ public class StudentImplementetion implements StudentCrud {
 	public void showByCourse() throws NotFoundException {
 		Collection<Student> c = al.values();
 		boolean f = false;
-		System.out.println("Enter Course Name");
+		System.out.println("Enter Course Name :");
 		String cName = sc.next();
 		for (Student s : c) {
 			for (Course c1 : s.course) {
@@ -143,7 +143,7 @@ public class StudentImplementetion implements StudentCrud {
 		StudentImplementetion studentImplementetion = new StudentImplementetion();
 
 		char contiu;
-		System.out.println(".... Welcome to Student managment system ....\n");
+		System.out.println(".... Welcome to Student Managment System ....\n");
 		do {
 
 			System.out.println("Enter Your Choice to perform opertion : \n");
