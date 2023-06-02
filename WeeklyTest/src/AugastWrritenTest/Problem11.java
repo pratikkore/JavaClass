@@ -8,7 +8,7 @@ import java.util.TreeSet;
 //Create a Set<Student> Student{sid,totalmarks}  
 //from the list and sort the set in descending order of totalmarks.
 
-class Student implements Comparable<Student> {
+class Student {
 	int sId;
 	int totalMarks;
 
@@ -21,10 +21,6 @@ class Student implements Comparable<Student> {
 	@Override
 	public String toString() {
 		return "sId=" + sId + ", totalMarks=" + totalMarks;
-	}
-
-	public int compareTo(Student o) {
-		return o.totalMarks - this.totalMarks;
 	}
 }
 
@@ -68,9 +64,10 @@ public class Problem11 {
 				hm.put(t.sId, t.marks);
 			}
 		}
-		TreeSet<Student> hs = new TreeSet<Student>();
-		for (Map.Entry<Integer, Integer> entry : hm.entrySet()) {
-			hs.add(new Student(entry.getKey(), entry.getValue()));
+		TreeSet<StudData> hs = new TreeSet<StudData>();
+
+		for (Map.Entry<Integer, Integer> e: hm.entrySet()) {
+if()
 		}
 		System.out.println(hs);
 	}
