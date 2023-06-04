@@ -1,4 +1,4 @@
-package thread_pro;
+package Threads;
 
 class Reserve1 implements Runnable {
 	int available = 1;

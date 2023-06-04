@@ -1,4 +1,4 @@
-package Threading;
+package Threads;
 
 public class SleepThreading implements Runnable {
 	@Override

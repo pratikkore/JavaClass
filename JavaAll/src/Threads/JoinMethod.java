@@ -1,4 +1,4 @@
-package thread_pro;
+package Threads;
 //join method when apply to that thread that thread will wait untill 
 //first thread completes its execution
 public class JoinMethod extends Thread {

@@ -1,4 +1,4 @@
-package thread_pro;
+package Threads;
 
 public class ThreadState {
 

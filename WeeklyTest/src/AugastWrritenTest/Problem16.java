@@ -5,13 +5,6 @@ package AugastWrritenTest;
 //No external class can create multiple objects of MyConnection & it'sMyStatement
 
 class Myconnections {
-	private static MyConnection instance;
-	private Mystatement statement;
-
-	private MyConnection() {
-        // Private constructor to prevent external instantiation
-        statement = new Mystatement();
-    }
 }
 
 public class Problem16 {

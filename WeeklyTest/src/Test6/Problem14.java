@@ -9,12 +9,12 @@ package Test6;
 //else
 //sysout(“platinum” );
 
-public class Problem14 {
-
-	public static void main(String[] args) {
-		score<40000 ? score<25000?  System.out.println("bronze"):System.out.println("Silver"):
-			score< 60000 ?System.out.println("gold"):System.out.println("Platinum");
-
-	}
-
-}
+//public class Problem14 {
+//
+//	public static void main(String[] args) {
+//		score<40000 ? score<25000?  System.out.println("bronze"):System.out.println("Silver"):
+//			score< 60000 ?System.out.println("gold"):System.out.println("Platinum");
+//
+//	}
+//
+//}

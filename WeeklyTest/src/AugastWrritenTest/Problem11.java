@@ -1,75 +1,63 @@
 package AugastWrritenTest;
 
 import java.util.ArrayList;
-import java.util.HashMap;
+import java.util.Comparator;
+import java.util.LinkedHashSet;
 import java.util.Map;
-import java.util.TreeSet;
-//11)Consider an ArrayList<Test>and  test has  {tid,sid,marks} .
-//Create a Set<Student> Student{sid,totalmarks}  
-//from the list and sort the set in descending order of totalmarks.
+import java.util.Set;
+import java.util.stream.Collectors;
 
-class Student {
-	int sId;
-	int totalMarks;
-
-	public Student(int sId, int totalMarks) {
-		super();
-		this.sId = sId;
-		this.totalMarks = totalMarks;
-	}
-
-	@Override
-	public String toString() {
-		return "sId=" + sId + ", totalMarks=" + totalMarks;
-	}
-}
-
-class total {
+class Tes {
 	int tid;
-	int sId;
+	int sid;
 	int marks;
 
-	public total(int tid, int sId, int marks) {
-		super();
+	public Tes(int tid, int sid, int marks) {
 		this.tid = tid;
-		this.sId = sId;
+		this.sid = sid;
 		this.marks = marks;
 	}
 
-	@Override
-	public String toString() {
-		return "tid=" + tid + ", sId=" + sId + ",marks=" + marks;
+	public int getSid() {
+		return sid;
 	}
 
+	public int getMarks() {
+		return marks;
+	}
+}
+
+class Student {
+	int sid;
+	int totalMarks;
+
+	public Student(int sid, int totalMarks) {
+		this.sid = sid;
+		this.totalMarks = totalMarks;
+	}
+
+	public int getTotalMarks() {
+		return totalMarks;
+	}
+
+	@Override
+	public String toString() {
+		return "Student{" + "sid=" + sid + ", totalMarks=" + totalMarks + '}';
+	}
 }
 
 public class Problem11 {
 
 	public static void main(String[] args) {
+		ArrayList<Tes> testList = new ArrayList<>();
 
-		ArrayList<total> al = new ArrayList<total>();
-		al.add(new total(1, 1, 90));
-		al.add(new total(2, 2, 85));
-		al.add(new total(3, 1, 95));
-		al.add(new total(4, 3, 80));
-		al.add(new total(2, 2, 222));
+		Map<Integer, Integer> studentMarksMap = testList.stream()
+				.collect(Collectors.groupingBy(Tes::getSid, Collectors.summingInt(Tes::getMarks)));
+		Set<Student> studentSet = studentMarksMap.entrySet().stream()
+				.map(entry -> new Student(entry.getKey(), entry.getValue()))
+				.sorted(Comparator.comparingInt(Student::getTotalMarks).reversed())
+				.collect(Collectors.toCollection(LinkedHashSet::new));
 
-		HashMap<Integer, Integer> hm = new HashMap<Integer, Integer>();
-
-		for (total t : al) {
-			if (hm.containsKey(t.sId)) {
-				int tMark = hm.get(t.sId);
-				hm.put(t.sId, (t.marks + tMark));
-			} else {
-				hm.put(t.sId, t.marks);
-			}
-		}
-		TreeSet<StudData> hs = new TreeSet<StudData>();
-
-		for (Map.Entry<Integer, Integer> e: hm.entrySet()) {
-if()
-		}
-		System.out.println(hs);
+		studentSet.forEach(System.out::println);
 	}
-
 }
