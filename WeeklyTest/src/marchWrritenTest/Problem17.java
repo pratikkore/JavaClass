@@ -1,8 +1,9 @@
 package marchWrritenTest;
 
-class SomeClass {
-	public int intVar = 0;
-	String strVar = "InnerClassExample";
+public class Problem17 {
+	int intVar = 0;
+
+	static String strVar = "InnerClassExample";// create static variable
 	private int intPvt = 4;
 	public static int intStatic = 61;
 	private static String strPvtStatic = " java";
@@ -13,49 +14,31 @@ class SomeClass {
 
 	static class Nested {
 
-		public void printStaticInnerVar() {
-
-			System.out.println(" variable from outer class " + strVar); // non static access
-
-			System.out.println(" static variable from outer class " + intStatic);// 2
-
-			System.out.println(" I am from static inner class"); // 3
-
+		public void InnerVar() {
+			System.out.println(" variable from outer class " + strVar);
+			System.out.println(" static variable from outer class " + intStatic);
+			System.out.println(" I am from static inner class");
 		}
-
-	}
-}
-
-class InnerClass {
-
-	int intInner = 9; // 4
-
-	static int num = 0; // 5
-
-	static final int numConstant = 10; // 6
-
-	String strInner = " I am string in innerclass";
-
-	public void printInnerVar() {
-
-		System.out.println(" I am from inner class " + );
-
 	}
 
-}
+	class InnerClass {
 
-public class Problem17 {
+		int intInner = 9;
+		int num = 0; // remove static modifier
+		static final int numConstant = 10;
+
+		String strInner = " I am string in innerclass";
+
+		public void printInnerVar() {
+
+			System.out.println(" I am from inner class " + strVar);
+		}
+	}
 
 	public static void main(String[] args) {
-		SomeClass.StaticNested sn = new SomeClass.StaticNested();
-
-		sn.printStaticInnerVar(); // 7
-
-		SomeClass icd = new SomeClass();
-
-		SomeClass.InnerClass inObj = icd.new InnerClass(); // create innerclass interface
+		Problem17 sn = new Problem17();
+		Problem17 icd = new Problem17();
+		Problem17.InnerClass inObj = icd.new InnerClass();
 		inObj.printInnerVar(); // 8
-
 	}
-
 }
